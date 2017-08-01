@@ -2,17 +2,17 @@ export class Hello extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
-        <AnotherHello />
+        <h1>Hello:</h1>
+        <World />
       </div>
     );
   }
 }
 
-export class AnotherHello extends React.Component {
+export class World extends React.Component {
   render() {
     return (
-      <h2>World</h2>
+      <h2>World!</h2>
     );
   }
 }
