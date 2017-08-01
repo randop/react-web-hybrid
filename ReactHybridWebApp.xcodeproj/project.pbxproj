@@ -6,11 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		A96471061F309A2200716EE8 /* app.jsx */ = {isa = PBXFileReference; lastKnownFileType = text; name = app.jsx; path = src/app.jsx; sourceTree = "<group>"; };
+		A96471081F309A7700716EE8 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A96471091F309A7700716EE8 /* webpack.config.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = webpack.config.js; sourceTree = "<group>"; };
+		A964710A1F309B9D00716EE8 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = index.js; path = src/index.js; sourceTree = "<group>"; };
+		A964710B1F309E7A00716EE8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = src/index.html; sourceTree = "<group>"; };
+		A964710C1F309EEA00716EE8 /* .babelrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .babelrc; sourceTree = "<group>"; };
+		A964710D1F30B60500716EE8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		A96470FD1F30999900716EE8 = {
 			isa = PBXGroup;
 			children = (
+				A964710D1F30B60500716EE8 /* .gitignore */,
+				A964710C1F309EEA00716EE8 /* .babelrc */,
+				A96471081F309A7700716EE8 /* package.json */,
+				A96471091F309A7700716EE8 /* webpack.config.js */,
+				A96471051F3099E500716EE8 /* src */,
 			);
+			sourceTree = "<group>";
+		};
+		A96471051F3099E500716EE8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A964710B1F309E7A00716EE8 /* index.html */,
+				A964710A1F309B9D00716EE8 /* index.js */,
+				A96471061F309A2200716EE8 /* app.jsx */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
