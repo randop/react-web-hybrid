@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
